@@ -27,6 +27,13 @@ credentials
 *.pem
 *.key
 *.pub
+.aws/*
+~/.aws/
+aws/
+aws-config/
+aws_credentials
+credentials
+config
 
 # ========================
 # Jenkins files
