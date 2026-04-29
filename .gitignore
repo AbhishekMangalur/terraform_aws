@@ -1,66 +1,55 @@
-# ========================
-# Terraform files
-# ========================
+# =========================
+# AWS (IMPORTANT)
+# =========================
+.aws/
+aws/
+aws/*
+~/.aws/
+aws_credentials
+credentials
+config
+*.pem
+*.key
+*.pub
+
+# =========================
+# Terraform
+# =========================
+.terraform/
+.terraform.lock.hcl
+
 *.tfstate
 *.tfstate.*
-*.tfplan
+terraform.tfvars
+*.tfvars
+*.tfvars.json
 crash.log
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
 
-.terraform/
-.terraform.lock.hcl
-
-# Terraform variables (VERY IMPORTANT - may contain secrets)
-terraform.tfvars
-*.tfvars
-*.tfvars.json
-
-# ========================
-# AWS credentials
-# ========================
-.aws/
-aws_credentials
-credentials
-*.pem
-*.key
-*.pub
-.aws/*
-~/.aws/
-aws/
-aws-config/
-aws_credentials
-credentials
-config
-
-# ========================
-# Jenkins files
-# ========================
-.jenkins/
+# =========================
+# Jenkins
+# =========================
 jenkins_home/
-*.log
+.jenkins/
 
-# ========================
-# OS files
-# ========================
-.DS_Store
-Thumbs.db
-
-# ========================
-# Editor files
-# ========================
-.vscode/
-.idea/
-
-# ========================
-# ZIP / temporary installs
-# ========================
+# =========================
+# Archives / installs
+# =========================
 *.zip
 *.tar.gz
 
-# ========================
-# Node / misc (optional safety)
-# ========================
-node_modules/
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
