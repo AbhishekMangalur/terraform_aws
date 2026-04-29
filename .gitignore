@@ -1,0 +1,59 @@
+# ========================
+# Terraform files
+# ========================
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variables (VERY IMPORTANT - may contain secrets)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# ========================
+# AWS credentials
+# ========================
+.aws/
+aws_credentials
+credentials
+*.pem
+*.key
+*.pub
+
+# ========================
+# Jenkins files
+# ========================
+.jenkins/
+jenkins_home/
+*.log
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Editor files
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# ZIP / temporary installs
+# ========================
+*.zip
+*.tar.gz
+
+# ========================
+# Node / misc (optional safety)
+# ========================
+node_modules/
